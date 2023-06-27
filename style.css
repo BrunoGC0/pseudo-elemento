@@ -1,0 +1,20 @@
+.first-letter::first-letter{
+    color: coral;
+}
+
+.first-line::first-line{
+    color: coral;
+}
+
+.first-line::first-letter{
+    color: red;
+}
+
+li::marker{
+    color: red;
+    font-size: 23px;
+}
+
+h2::before{
+    content: url(image/logo.jpg);
+}
